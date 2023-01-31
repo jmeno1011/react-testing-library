@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import MyPage from "./MyPage";
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="p-4 border-white">
+        <MyPage />
+        <MyPage user="kim" />
+        <MyPage user={{ name: "kim" }} />
+      </div>
     </div>
   );
 }
