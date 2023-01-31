@@ -29,3 +29,7 @@ const textElement = screen.getByText("로그인을");
   - checkbox : checkbox
   - radio : radio
   - select : combobox
+
+#### getAllBy~, queryBy~, findBy~
+
+- [testing-library 문서](https://testing-library.com/docs/queries/about#types-of-queries)의 summary table에서 요소의 유무/갯수에 따른 반환 형태 보기

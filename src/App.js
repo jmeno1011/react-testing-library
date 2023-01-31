@@ -3,6 +3,7 @@ import "./App.css";
 import MyPage from "./MyPage";
 import JoinButton from "./JoinButton";
 import MyRole from "./MyRole";
+import UserList from "./UserList";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
       </div>
       <div className="p-4 border-white">
         <MyRole />
+      </div>
+      <div className="p-4 border-white">
+        <UserList users={["Tom", "Jane", "Mike"]} />
       </div>
     </div>
   );
