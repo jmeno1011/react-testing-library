@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import MyPage from "./MyPage";
 import JoinButton from "./JoinButton";
+import MyRole from "./MyRole";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       <div className="p-4 border-white">
         <JoinButton age={10} />
         <JoinButton age={30} />
+      </div>
+      <div className="p-4 border-white">
+        <MyRole />
       </div>
     </div>
   );
