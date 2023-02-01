@@ -33,3 +33,11 @@ const textElement = screen.getByText("로그인을");
 #### getAllBy~, queryBy~, findBy~
 
 - [testing-library 문서](https://testing-library.com/docs/queries/about#types-of-queries)의 summary table에서 요소의 유무/갯수에 따른 반환 형태 보기
+
+#### dashboard-chart같은 컴포넌트 test 참고
+- chart에 hover  참고한 자료
+- [참고 링크](https://jskim1991.medium.com/react-writing-tests-with-graphs-9b7f2c9eeefc)
+
+#### 유저 이벤트 테스트(@testing-library/user-event) 참고
+- form에서 일어나는 이벤트 테스트 참고 자료
+- [참고 링크](https://www.daleseo.com/testing-library-user-agent/)
